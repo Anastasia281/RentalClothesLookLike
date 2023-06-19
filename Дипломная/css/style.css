@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+html {
+  background-color: #FFFBF3;
+}
+body {
+  font-family: 'Josefin Slab', serif;
+  background-color: rgb(244, 231, 217);
+  margin: auto;
+  max-width: 1920px;
+}
+header {
+  padding: 21px 3% 21px 30px;
+  height: 80px;
+  background: linear-gradient(180deg, #B6F3F7 28.65%, #f6c9a929 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  font-size: 20px;  
+  display: flex;
+  align-items: center;  
+}
+.menuList {
+  display: flex;
+  list-style-type: none;
+  flex-wrap:wrap;
+}
+.menulistItem {
+  color: black;
+  text-decoration: none;
+  margin-left: 35px;
+}
+.menulistItem h2{
+  margin-left: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+}
+.logoImg {
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+}
+.linkAuth {  
+  background-color: #78EEFE;
+  border-radius: 10px;
+  padding: 15px 47px;
+  border: solid 1px darkturquoise;
+}
+.mainImg {
+  width: 100%;
+}
+.mainCatalogLot a, .oneNews a {
+  text-decoration: none;
+  color: black;
+}
+.mainCatalogLot a:hover, .oneNews a:hover, .mainCatalogButton:hover {
+  color: black;
+}
+footer {
+  background: linear-gradient(180deg, rgba(242, 200, 170, 0) 0%, #B6F3F7 61.46%);
+  height: 160px;
+  padding: 20px 40px;
+}
+.vkIcon {
+  float: right;
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
+.contact {
+  float: left;
+}
+.aboutCompany {
+  margin: auto;
+  font-size: 32px;
+  text-align: center;
+  min-height: 250px;
+  max-width: 900px;
+  align-items: center;
+  display: flex;
+  padding: 5px 20px;
+}
+.MainNews {
+  overflow-x: scroll;  
+  overflow-y: hidden;
+  padding: 20px 80px;
+  text-align: center;
+  background-color: #FFE8E8;
+  height: 540px;
+}
+.oneNews {
+  padding: 20px;
+  margin: 40px 40px;
+  height: 380px;
+  width: 340px;
+  background-color: white;
+  overflow: hidden;
+}
+.newsDate {
+  font-size: 20px;
+  text-align: left;
+}
+.mainNewsImg {
+  height: 240px;
+}
+.mainNewsText {
+  font-size: 18px;
+}
+.mainCatalog  {
+  margin: auto;
+  padding-bottom: 60px;
+  width: 80%;
+  display: flex;
+}
+.mainCatalogLot {
+  margin: 50px 50px 30px 0px;
+  height: 360px;
+  width: 240px;
+  background-color: #f3d8d8;
+  padding: 40px;
+  border: 3px solid gray;
+}
+.mainCatalogHeader {
+  margin: auto;
+  padding-top: 70px;
+  width: 80%;
+}
+.mainCatalogButton {
+  display: block;
+  margin: auto;
+  height: 30px;
+  width: 250px;
+  padding: 10px;
+  background-color: #78EEFE;
+  font-size: 22px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.mainCatalogImg {
+  height: 300px;
+  width: 240px;
+  margin-bottom: 10px;
+}
+.mainCatalogText {
+  font-size: 20px;
+  text-align: center;
+}
+.news {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding: 40px;
+  font-size: 24px;
+}
+.newsHeader {
+  font-size: 28px;
+}
+.newsImg {
+  margin: 20px;
+  height: 500px;
+}
+.newsButton {
+  display: block;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 200px;
+  height: 30px;
+  background-color: #78EEFE;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+.newsButton:hover {
+  color: black;
+}
+.catalog {
+  margin: auto;
+}
+.catalogFiltrs {
+  background-color: #daa782;
+  padding: 10px 200px;
+}
+.filtr {
+  align-items: center;
+  display: flex;
+}
+.filtr select {
+  margin-left: 15px;
+  height: 20px;
+}
+.tableFiltrs td{
+  width: 40%;
+}
+.sort {
+  margin-left: 10px;
+}
+.sortLabel {
+  margin-left: 30px;
+}
+.catalogLots {
+  overflow: hidden;
+  overflow-wrap: break-word;
+  padding: 50px 5%;
+}
+.catalogLot {
+  display:inline-block;
+  height: 300px;
+  width: 240px;
+  margin-left: 1%;
+  background-color:#f6e7dd;
+  margin-bottom: 10px;
+  text-align: center;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 30px;
+}
+.catalogLot a{
+  color: black;
+  text-decoration: none;
+}
+.catalogLot a:hover {
+  color: black;
+}
+.catalogLot img {
+  border-radius: 30px;
+  display: block;
+  height: 260px;
+  max-width: 220px;
+  margin: auto;
+}
+.catalogHeader {
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+}
+.auth {
+  width: 340px;
+  text-align: left;
+  padding: 30px;
+  margin: auto;
+  margin-bottom: 60px;
+  border: 2px solid lightblue;
+}
+.sms {
+  margin-top: 40px;
+}
+.AuthReg {
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;  
+}
+.authRegUrl {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  line-height: 40px;
+  background-color:lightblue;
+  width: 198px;
+  height: 40px;
+  border: 1px solid rgb(98, 189, 219);
+  font-size: 20px;
+}
+.authButton {
+  display: block;
+  margin: auto;
+  width: 240px;
+  height: 35px;
+  margin-top: 30px;
+  background-color: #78EEFE;
+  font-size: 16px;
+  border: 0px solid;
+  border-radius: 20px;
+}
+.auth input{
+  height: 20px;
+  width: 200px;
+}
+#checkboxСonfidentInfo {
+  margin: 0px;
+  margin-top: 14px;
+  width: 30px;
+}
+.rulesRent {
+  margin: auto;
+  padding-top: 20px;
+  width: 80%;
+  height: 300px;
+}
+.items {
+  height: 500px;
+  width: 700px;
+  margin: auto;
+}
+.itemImg {
+  float: left;
+}
+.itemImg img {
+  padding-right: 40px;
+  width: 250px;
+}
+.itemAbout {
+  display: block;
+  font-size: 20px;
+}
+.itemBack {
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 16px;
+  width: 170px;
+  height: 20px;
+  padding: 7px;
+  background-color: #B6F3F7;
+  border-radius: 30px;
+  border: 1px solid lightblue;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 3px;
+}
+.itemBack:hover {
+  color: black;
+}
+.cabinetClient {
+  margin: auto;
+  width: 700px;
+  padding-top: 40px;
+  height: 300px;
+  padding-bottom: 20px;
+  display: flex;
+}
+.clientData {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #78EEFE;
+  border-radius: 30px;
+}
+.clientFunction {
+  padding: 40px;
+  padding-top: 60px;
+}
+.buttonFunction {
+  display: block;
+  width: 200px;
+  height: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color:rgb(98, 189, 219);
+  border: 2px solid lightblue;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.buttonFunction:hover {
+  color: black;
+  text-decoration: none;
+}
+.registy {
+  background-color: whitesmoke;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  height: 300px;
+  width: 400px;
+  border: 2px solid black;
+  padding: 20px 50px;
+  border-radius: 30px;
+}
+.buttonRegistry {
+  border-radius:20px ;
+  border: 1px solid lightblue;
+  background-color: #78EEFE;
+  margin-top: 30px;
+  display: block;
+  height: 30px;
+  width: 199px;
+}
+.reports {
+  margin: auto;
+  width: 80%;
+  min-height: 300px;
+}
+.reportText,  .addItemsObject textarea{
+  display: block;
+  resize: none;
+  margin-bottom: 30px;
+}
+.reportButton, .buttonBooking {
+  width: 200px;
+  height: 30px;
+  background-color: #B6F3F7;
+  margin-bottom: 20px;
+}
+.report {
+  width: 700px;
+  padding: 15px 30px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+.reportName {
+  height: 24px;
+  width: 400px;
+  margin-bottom: 10px;
+}
+.booking {
+  margin: auto;
+  width: 80%;
+}
+.bookingItem {
+  height: 140px;
+  margin-bottom: 10px;
+  width: 70%;
+  background-color: white;
+  padding: 5px 10px;
+  align-items: center;
+  display: flex;
+}
+.bookingItem img {
+  height: 140px;
+  margin-right: 30px;
+}
+.bookingItemButton {
+  margin-top: auto;
+  margin-left: auto;
+  height: 30px;
+  width: 100px;
+  background-color: #B6F3F7;
+}
+.bookingLabel {
+  font-size: 24px;
+  font-weight: bold;
+}
+.bookingInput {
+  font-size: 20px;
+  margin-right: 30px;
+}
+.bookingDateTime {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.bookingDeleteItem {
+  width: 100px;
+  height: 30px;
+  background-color: #daa782;
+}
+.buttonBooking {
+  height: 40px;
+  width: 300px;
+  font-size: 20px;
+}
+.TableManager {
+  margin: 20px 100px;
+  display: flex;
+  text-align: center;
+  margin-bottom: -20px;
+}
+.mainTable {
+  margin-right: 40px;
+}
+.mainTable table, .registryTable table{
+  border-collapse: collapse;
+  border: 1px solid grey;  
+  margin-bottom: 20px;
+}
+.mainTable td, .registryTable td{
+  padding: 5px;
+  border: 1px solid grey;
+}
+.mainTableButton {
+  margin-top: 10px;
+  height: 30px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  background-color:#B6F3F7;
+  color: black;
+  text-decoration: none;
+}
+.registryTable {
+  margin: auto;
+  width: 80%;
+  min-height: 300px;
+}
+.additem {
+  width: 70%;
+  margin: auto;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.addItemsObject {
+  margin-bottom: 20px;
+}
+.addItemsObject label{
+  margin-right: 10px;
+}
+ 
